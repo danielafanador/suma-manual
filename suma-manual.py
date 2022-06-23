@@ -9,7 +9,6 @@ print (' ')
 
 # Cálculo manual
 sum_manual = 0
-suma = 0
 
 # Para saber el número de elementos
 ext = len(a_list)
@@ -19,7 +18,7 @@ print (' ')
 
 #Loop - Cálculo manual
 for element in a_list:
-    sum_manual = element + suma + sum_manual
+    sum_manual = element + sum_manual
 
 print ('Resultado calculado manualmente:')
 print (sum_manual)
